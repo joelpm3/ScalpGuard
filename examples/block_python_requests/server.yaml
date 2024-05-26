@@ -1,0 +1,21 @@
+server:
+  host: 0.0.0.0
+
+backends:
+  - name: "Produktivserver"
+    host: "127.0.0.1"
+    port: 5000
+    whitelist:
+      user_agents:
+      tls_fingerprints_ja3:
+      tls_fingerprints_ja3_no_extension:
+      http2_fingerprints:
+      browser_settings:
+      
+    blacklist:
+      user_agents: 
+      tls_fingerprints_ja3:
+       - "812e5acc70e52b4fc3035963f49cc8a9"
+      tls_fingerprints_ja3_no_extension:
+      http2_fingerprints:
+      browser_settings:

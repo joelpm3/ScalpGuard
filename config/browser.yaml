@@ -1,0 +1,18 @@
+browsers:
+  - name: "chrome122"
+    user_agents: 
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0"
+    tls_fingerprints_ja3:
+    tls_fingerprints_ja3_no_extension:
+      - "80abbd14ce91c0b5dc8d5c095838b76a"
+    http2_fingerprints:
+      - "5a40d192fed6045d13e5980884bb1034"
+  - name: "firefox123"
+    user_agents: 
+      - "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0"
+    tls_fingerprints_ja3:
+      - "ff58f5d9701c6c16a7208ed3c1b43481"
+    tls_fingerprints_ja3_no_extension:
+    http2_fingerprints:
+      - "d8624084b1a838832d52df8111159fb7"
